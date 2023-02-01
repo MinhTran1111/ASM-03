@@ -1,0 +1,93 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 16px;
+    margin: 1rem;
+    padding-bottom: 30px;
+  }
+  #nav-bar {
+    margin-top: 1rem;
+  }
+
+  #personal-info {
+    font-size: 16px;
+    padding-right: 50px;
+  }
+
+  #target {
+    font-size: 16px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .certificate-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* Project */
+  .project-title {
+    font-size: 14px;
+  }
+  .project-border {
+    font-size: 8px;
+    padding: 10px 4px !important ;
+  }
+
+  .project-boder span {
+    margin-right: 5px !important ;
+  }
+
+  td {
+    font-size: 12px;
+  }
+
+  tr td:first-child {
+    width: 30%;
+  }
+
+  /*  Digital-cv  */
+
+  .cv-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .goal-content {
+    flex-direction: column;
+  }
+  .goals-icon {
+    text-align: center;
+  }
+  #team li {
+    flex-direction: column;
+  }
+  #team .icon {
+    text-align: center;
+  }
+
+  #primary li {
+    flex-direction: column;
+  }
+  #primary .primary-icon {
+    text-align: center;
+  }
+
+  #scopes ul {
+    flex-direction: column;
+  }
+
+  #timeline li {
+    flex-direction: column;
+  }
+  #timeline .timeline-number {
+    margin-left: 14px;
+  }
+  #timeline .project {
+    margin-top: 8px;
+  }
+}
